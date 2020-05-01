@@ -1,0 +1,42 @@
+body{
+    font-size: 22px;
+}
+
+.container{
+    width: 900px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+
+.wrapper{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 900px;
+    height: 100px;
+    background: #eee;
+}
+
+.wrapper li{
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    float:left;
+}
+
+
+.wrapper li:nth-of-type(3n){
+    background: lightblue;
+}
+
+.wrapper li:nth-of-type(3n+1){
+    background: lightgreen;
+}
+
+.wrapper li:nth-of-type(3n+2){
+    background: lightpink;
+}
